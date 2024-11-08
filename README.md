@@ -1,6 +1,6 @@
 
 # Deploy Starbucks Clone Application AWS using DevSecOps Approach
-https://app.eraser.io/workspace/59NJfCay26dUMl5YAlFl?origin=share
+
 
 # **Install AWS CLI**
 ```
@@ -92,7 +92,7 @@ pipeline {
         }
         stage ("Git checkout") {
             steps {
-                git branch: 'main', url: 'https://github.com/yeshwanthlm/starbucks.git'
+                git branch: 'main', url: 'https://github.com/Nikhil1422003/starbucks.git'
             }
         }
         stage("Sonarqube Analysis "){
